@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Bellota:400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="biblio.css">
+    <title>Bibliothèque</title>
+  </head>
+
+  <body>
+
+    <h1>Liste des ouvrages</h1>
+
+    <table>
+
+      <thead>
+        <tr>
+          <th>Titre</th>
+          <th>Auteur.ice</th>
+          <th>Année de publication</th>
+        </tr>
+      </thead>
+
+      <tbody class="case-ouvrage">
+      </tbody>
+
+    </table>
+
+
+      <p>
+        <input id="titre" type="text" name="" value="" placeholder="Titre">
+      </p>
+
+
+      <p>
+        <input id="auteur" type="text" name="" value="" placeholder="Auteur.ice">
+      </p>
+
+      <p>
+        <input id="annee" type="text" name="" value="" placeholder="Année de publication">
+      </p>
+
+
+    <div class="buttons">
+
+      <button type="button" name="button" class="add-btn btn btn-danger">Ajouter un ouvrage</button>
+
+      <button type="button" name="button" class="tri-titre btn btn-success">Trier par titre</button>
+
+      <button type="button" name="button" class="tri-auteur btn btn-success">Trier par auteur</button>
+
+      <button type="button" name="button" class="tri-annee btn btn-success">Trier par année</button>
+
+    </div>
+
+
+  <script type="text/javascript" src="script.js">
+
+  </script>
+
+  </body>
+</html>

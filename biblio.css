@@ -1,0 +1,38 @@
+body
+{
+    font-family: 'Bellota', cursive;
+    margin: 30px 50px;
+}
+
+table, th, td
+{
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th, td
+{
+  text-align: center;
+  padding: 8px;
+}
+
+h1, th
+{
+  color: #218838;
+}
+
+h1, th, p
+{
+  font-weight: bolder;
+}
+
+table
+{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.buttons
+{
+  margin-top: 40px;
+}
